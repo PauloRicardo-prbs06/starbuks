@@ -1,0 +1,111 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+padding-top: 20px;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.conteudo {
+    width: 100%;   /*lagura */
+    display: flex; /*permite que alteramos a posição dos elementos na tela */
+    justify-content: space-between; /*permite justificar / alinhar os componentes horizontal*/
+    align-items: center;            /*permite justificar / alinhar os componentes vertical*/
+}
+
+.caixa-texto {
+    width:600px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.circulo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: #017143;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+
+}
+
+h2 {
+    color: #333;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 16px;    /* font-size -> tamanho da fonte */
+}
+
+button {
+background: #017143; /* background -> fundo do elemento */
+color: white;        /* color -> cor do texto */
+border-radius: 40px;    /* border-radius -> arredondamento da borda */
+border: none;           /* boder -> borda do elemento */
+cursor: pointer;        /* cursor -> cursor do mouse */
+padding: 10px;          /* padding -> espaçamento interno */
+margin-top: 20px;
+}
+
+.logo{ width: 80px;
+}
+
+.starbucks {
+    width: 340px;
+}
+
+.botao-menu01 {
+    width: 200px;
+    transition: 1s;
+    cursor:pointer;
+}
+
+.botao-menu02 {
+    width: 100px;
+    transition: 1s;
+    cursor:pointer;
+    }
+
+.botao-menu03 {
+        width: 150px;
+        transition: 1s;
+        cursor:pointer;
+    }
+
+        .botao-menu01:hover{
+            transform: translateY(-25px);
+        }
+
+        .botao-menu02:hover{
+            transform: translateY(-25px);
+        }
+
+        .botao-menu03:hover{
+            transform: translateY(-25px);
+        }
